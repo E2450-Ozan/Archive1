@@ -1,10 +1,8 @@
-name = (input("Please enter your name: "))
-
+name = input("Please enter your name: ").title().strip()
 if 'Matt' == name:
+        print("Hello, {yourname}! The password is : W@12".format(yourname = name))
+elif 'Matt Alton' == name:
+        print("Hello, {yourname}! The password is : W@12".format(yourname = name))
+else: 
+    print("Hello, {yourname}! See you later.".format(yourname = name))
 
-    print('Hello, ' + name + '! The password is: W@12')
-
-else:
-
-    print('Hello, ' + name + '! See you later.')
-# this file to be kept in both local and remote repo
