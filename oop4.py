@@ -27,11 +27,15 @@ class Employee:
 
 
 emp_1 = Employee('John', 'Smith')
-emp_1.fullname = "Corey Schafer"
+emp_1.fullname = "Matt Ivy"
 
 print(emp_1.first)
 print(emp_1.email)
 print(emp_1.fullname)
 
 del emp_1.fullname
+
+print(emp_1.first)
+print(emp_1.last)
+print(emp_1.fullname)
 
