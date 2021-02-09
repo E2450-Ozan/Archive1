@@ -1,7 +1,0 @@
-entry = int(input("Please enter a number to check if it is a prime or not:"))
-count = 0
-for i in range(1, entry + 1):
-    if not (entry % i): count += 1
-if (entry == 0) or (entry == 1) or (count >=3) : print(entry, "is not a prime number.")
-else : print(entry, "is a prime number")
-
